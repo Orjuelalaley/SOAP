@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.10.24 a las 12:37:46 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://g4.com/spring-boot-soap-example">
+    <schemaBindings map="false">
+      <package name="com.g4.spring_boot_soap_example"/>
+    </schemaBindings>
+    <bindings scd="tns:getUserRequest">
+      <class ref="com.g4.spring_boot_soap_example.GetUserRequest"/>
+    </bindings>
+    <bindings scd="tns:getUserResponse">
+      <class ref="com.g4.spring_boot_soap_example.GetUserResponse"/>
+    </bindings>
+    <bindings scd="~tns:user">
+      <class ref="com.g4.spring_boot_soap_example.User"/>
+    </bindings>
+  </bindings>
+</bindings>
+
